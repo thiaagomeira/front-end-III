@@ -93,7 +93,7 @@ Escreva um programa que imprima os números de 1 a 100. Mas, para múltiplos de 
 - Manipulação de DOM.
 
 ### Exercício:
-Suponha que temos a seguinte página HTML. Crie um script em JS (no arquivo script.js) que tenha uma função “mudaTexto()”, ela deve ser responsável por mudar o texto do elemento "<h1>" para “Novo Título” quando o botão for clicado. 
+Suponha que temos a seguinte página HTML. Crie um script em JS (no arquivo script.js) que tenha uma função “mudaTexto()”, ela deve ser responsável por mudar o texto do elemento h1 para “Novo Título” quando o botão for clicado. 
 - Dica: para selecionar o elemento você pode utilizar document.getElementById(“id-do-ele mento”)
 - Com esse elemento selecionado você pode mudar o texto: variavelQueSelecionouOElemento = innerText = “Novo Título”
 
