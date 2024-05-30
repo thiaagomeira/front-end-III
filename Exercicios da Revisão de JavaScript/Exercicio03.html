@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Arrow Function em JavaScript</title>
+</head>
+<body>
+
+<div id="resultado"></div>
+
+<script>
+  const objetivoDaDisciplina = (tecnologia) => `Meu objetivo é aprender ${tecnologia}`;
+
+  const tecnologia = "React";
+
+  const resultado = objetivoDaDisciplina(tecnologia);
+
+  const resultadoElement = document.getElementById("resultado");
+  resultadoElement.innerHTML = resultado;
+</script>
+
+</body>
+</html>

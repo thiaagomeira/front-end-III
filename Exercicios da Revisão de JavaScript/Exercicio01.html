@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Variáveis em JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    #infoOutput {
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<div id="infoOutput"></div>
+
+<script>
+  var nome;
+  const cpf = "123.456.789-00";
+
+  function definirSobrenome() {
+    let sobreNome = "Meira";
+    imprimirInformacoes(nome, sobreNome, cpf);
+  }
+
+  function imprimirInformacoes(nome, sobreNome, cpf) {
+    const infoOutput = document.getElementById("infoOutput");
+    infoOutput.innerHTML = `Nome: ${nome}<br>Sobrenome: ${sobreNome}<br>CPF: ${cpf}`;
+  }
+
+  nome = "Thiago";
+
+  definirSobrenome();
+</script>
+
+</body>
+</html>

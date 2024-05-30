@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Array em JavaScript</title>
+</head>
+<body>
+
+<div id="resultado"></div>
+
+<script>
+  const notas = [10, 8, 9];
+
+  const quantidadeNotas = notas.length;
+  const somaNotas = notas.reduce((acumulador, nota) => acumulador + nota, 0);
+  const media = somaNotas / quantidadeNotas;
+
+  const resultadoHTML = `
+    <p>A primeira nota do aluno é: ${notas[0]}</p>
+    <p>A segunda nota do aluno é: ${notas[1]}</p>
+    <p>A terceira nota do aluno é: ${notas[2]}</p>
+    <p>A média do aluno é: ${media.toFixed(2)}</p>
+  `;
+
+  document.getElementById("resultado").innerHTML = resultadoHTML;
+</script>
+
+</body>
+</html>
