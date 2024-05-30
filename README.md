@@ -3,9 +3,137 @@
 # Uniesp: Front-end III
 Este repositório é dedicado à disciplina Front-end III do curso de Sistemas para Internet da universidade Uniesp, onde utilizamos JavaScript e a biblioteca React.
 
-## Revisão de JavaScript
+## Atividades Revisão JavaScript:
+Antes de iniciar as aulas de React, foi passada uma lista de exercícios de revisão sobre JavaScript, focando em tópicos essenciais para o desenvolvimento front-end.
 
-Antes de iniciar as aulas de React, foi feita uma revisão sobre JavaScript, focando em tópicos essenciais para o desenvolvimento front-end. Os exercícios incluíram práticas de manipulação de DOM, funções, arrays e objetos, garantindo que todos tivessem uma base sólida para avançar nos estudos com React.
+## Exercício 01:
+### Temas abordados:
+- Tipos de dados Primitivos:
+- String
+- Boolean
+- Null
+- Undefined
+
+### Exercício:
+Faça um script que tenha três variáveis:
+- var nome
+- let sobreNome
+- const cpf
+- nome e cpf devem estar em um escopo global
+- sobreNome deve estar dentro de uma função
+
+- A execução do programa deve imprimir o nome completo na ordem correta (com quebra de linha):
+- Nome
+- Sobrenome
+- CPF
+
+## Exercício 02:
+### Temas abordados:
+- Tipos de Dados Objetos:
+- Arrays
+- Funções
+- Objetos Regulares
+- Objetos de Data
+
+### Exercício:
+Faça um script que contenha uma função: objetivoDaDisciplina(tecnologia)
+- A função deve retornar a string: “Meu objetivo é aprender [parametro tecnologia]”
+- Fora da função defina uma const tecnologia que possua o valor “React”.
+- Chame a execução da função para que a mesma retorne: “Meu objetivo é aprender React”
+
+## Exercício 03:
+### Temas abordados:
+- Function e Arrow Function
+
+### Exercício:
+Faça um script que contenha uma função (ARROW FUNCTION): objetivoDaDisciplina(tecnologia)
+- A função deve retornar a string: “Meu objetivo é aprender [parâmetro tecnologia]”
+- Fora da função defina uma const tecnologia que possua o valor “React”.
+- Chame a execução da função para que a mesma retorne: “Meu objetivo é aprender React”
+
+## Exercício 04:
+### Temas abordados:
+- Manipulando Arrays, lenght, push, pop, shift e unshift.
+
+### Exercício:
+Faça um script que contenha um array chamado notas, esse array armazena 3 notas de um aluno.
+- O programa deve imprimir:
+  • A primeira nota do aluno é:
+  • A segunda nota do aluno é:
+  • A terceira nota do aluno é:
+  • A média do aluno é:
+OBS: Cálculo da média: (soma das notas)/quantidade de notas.
+
+## Exercício 05:
+### Temas abordados:
+- Objetos
+- Operadores
+- Condicionais
+
+### Exercício:
+Faça um script que contenha um array chamado notas, esse array armazena 3 notas de um aluno.
+- O programa deve imprimir:
+  • A primeira nota do aluno é:
+  • A segunda nota do aluno é:
+  • A terceira nota do aluno é:
+  • A média do aluno é:
+  • O aluno está: APROVADO ou REPROVADO
+  • APROVADO QUANDO A MÉDIA FOR MAIOR OU IGUAL A 7
+OBS: Cálculo da média: (soma das notas)/quantidade de notas.
+
+## Exercício 06:
+### Temas abordados:
+- Loop: For e While
+
+### Exercício:
+Escreva um programa que imprima os números de 1 a 100. Mas, para múltiplos de 3, imprima "Fizz" em vez do número e, para múltiplos de 5, imprima "Buzz". Para números que são múltiplos de ambos 3 e 5, imprima "FizzBuzz".
+
+## Exercício 07:
+### Temas abordados:
+- Manipulação de DOM.
+
+### Exercício:
+Suponha que temos a seguinte página HTML. Crie um script em JS (no arquivo script.js) que tenha uma função “mudaTexto()”, ela deve ser responsável por mudar o texto do elemento <h1> para “Novo Título” quando o botão for clicado.
+- Dica: para selecionar o elemento você pode utilizar document.getElementById(“id-do-ele mento”)
+- Com esse elemento selecionado você pode mudar o texto: variavelQueSelecionouOElemento = innerText = “Novo Título”
+
+## Exercício 08:
+### Temas abordados:
+- Eventos em JS.
+
+### Exercício:
+Escreva um html que contenha um botão “Clique aqui”. 
+Dentro desse HTML inicialize um “<script> ... </script>” que contenha um script em JS que receba esse elemento do botão em uma váriavel, e logo após implemente um “ouvinte” com essa variável para exibir o alert “Botão clicado!”
+  - alert(“Botão clicado!”);
+
+## Exercício 09:
+### Temas abordados:
+- Orientação a Objetos.
+  • Encapsulamento
+  • Herança
+  • Polimorfismo
+
+### Exercício:
+Faça uma classe, em JS, “Pessoa” que possua as propriedades: nome, idade e profissao.
+- Esta classe vai possuir o método
+  • “exibirInfo()” que vai printar:
+- Nome: ..., Idade: ..., Profissao: ...
+- Fora da classe crie um objeto Pessoa em uma variável.
+- Chame o método exibirInfo() através do seu novo objeto.
+
+## Exercício Dobrando os Números:
+### Temas abordados:
+- Arrays
+- Funções
+- Método map
+- Constantes
+- Manipulação de Arrays
+
+### Exercício:
+Escreva uma função em JavaScript que utilize a função map para dobrar os valores de uma lista de números.Descrição:
+- Você tem uma lista de números: [1, 2, 3, 4, 5].
+- Sua tarefa é escrever uma função que utilize a função map para iterar sobre esta lista e dobrar cada número.
+- A função deve retornar a nova lista com os números dobrados.
 
 ## Aula 00:
 ### Temas abordados:
