@@ -85,7 +85,7 @@ OBS: Cálculo da média: (soma das notas)/quantidade de notas.
 ### Temas abordados:
 - Loop: For e While
 
-### Exercício:
+### Exercício0:
 Escreva um programa que imprima os números de 1 a 100. Mas, para múltiplos de 3, imprima "Fizz" em vez do número e, para múltiplos de 5, imprima "Buzz". Para números que são múltiplos de ambos 3 e 5, imprima "FizzBuzz".
 
 ## Exercício 07:
@@ -93,7 +93,7 @@ Escreva um programa que imprima os números de 1 a 100. Mas, para múltiplos de 
 - Manipulação de DOM.
 
 ### Exercício:
-- Suponha que temos a seguinte página HTML. Crie um script em JS (no arquivo script.js) que tenha uma função “mudaTexto()”, ela deve ser responsável por mudar o texto do elemento <h1> para “Novo Título” quando o botão for clicado.
+Suponha que temos a seguinte página HTML. Crie um script em JS (no arquivo script.js) que tenha uma função “mudaTexto()”, ela deve ser responsável por mudar o texto do elemento <h1> para “Novo Título” quando o botão for clicado.
 - Dica: para selecionar o elemento você pode utilizar document.getElementById(“id-do-ele mento”)
 - Com esse elemento selecionado você pode mudar o texto: variavelQueSelecionouOElemento = innerText = “Novo Título”
 
