@@ -1,3 +1,5 @@
+As atividades 05 e 06 estão em outros repositórios. Os links estão em cada atividade.
+
 ---
 
 # Uniesp: Front-end III
